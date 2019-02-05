@@ -1,8 +1,6 @@
 ﻿# SimpleBluetooth 
  
- [![License: MIT](https://github.com/prateekro/ref/blob/master/badge/License-MIT-yellow.svg)](https://github.com/prateekro/SimpleBluetooth/blob/master/LICENSE.md)
-
-[![Awesome](https://github.com/prateekro/ref/blob/master/badge/awesomebadge.svg)](https://github.com/prateekro/)
+ [![License: MIT](https://github.com/prateekro/ref/blob/master/badge/license-mit-yellow.svg)](https://github.com/prateekro/SimpleBluetooth/blob/master/LICENSE.md) [![Awesome](https://github.com/prateekro/ref/blob/master/badge/awesomebadge.svg)](https://github.com/prateekro/)
 
 <p align="center">
   <img src="https://github.com/prateekro/SimpleBluetooth/blob/master/screen/Screenshot_20190205-084207.jpg" height="350" title="Discovered Devices">
