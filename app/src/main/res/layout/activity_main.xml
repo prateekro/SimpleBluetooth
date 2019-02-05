@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-100dp"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/start_discovery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:layout_marginLeft="50dp"
+        android:text="@string/start_discovery" />
+
+    <Button
+        android:id="@+id/stop_discovery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginRight="50dp"
+        android:text="@string/stop_discovery" />
+
+    <ListView
+        android:id="@+id/lv_discovered_list"
+        android:layout_width="208dp"
+        android:layout_height="304dp"
+        android:layout_gravity="bottom|right" />
+
+    <ListView
+        android:id="@+id/lv_paired_list"
+        android:layout_width="203dp"
+        android:layout_height="304dp"
+        android:layout_gravity="bottom|left" />
+
+    <Switch
+        android:id="@+id/bt_switch"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:checked="false"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:showText="false"
+        android:textColor="@color/colorPrimary"
+        android:textOff="BT Disabled"
+        android:textOn="BT Enabled"
+        android:textStyle="bold"
+        tools:checked="true" />
+</FrameLayout>
