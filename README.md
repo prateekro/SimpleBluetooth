@@ -1,8 +1,10 @@
-﻿# SimpleBluetooth
-
+﻿# SimpleBluetooth 
+ 
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/prateekro/SimpleBluetooth/blob/master/LICENSE.md)
+ 
 <p align="center">
-  <img src="https://github.com/prateekro/SimpleBluetooth/blob/master/screen/Screenshot_20190205-084207.jpg" height="250" title="Discovered Devices">
-  <img src="https://github.com/prateekro/SimpleBluetooth/blob/master/screen/Screenshot_20190205-084215.jpg" height="250" title="Receiver - Demo Screenshot" alt="Receiver - Demo Screenshot">
+  <img src="https://github.com/prateekro/SimpleBluetooth/blob/master/screen/Screenshot_20190205-084207.jpg" height="350" title="Discovered Devices">
+  <img src="https://github.com/prateekro/SimpleBluetooth/blob/master/screen/Screenshot_20190205-084215.jpg" height="350" title="Receiver - Demo Screenshot" alt="Receiver - Demo Screenshot">
 </p>
 
 ## Native Usage of Bluetooth API's from [Android Documentation for Bluetooth](https://developer.android.com/guide/topics/connectivity/bluetooth#java)
@@ -107,3 +109,6 @@
     mBluetoothAdapter.isDiscovering();
 ##### And, cancel with
     mBluetoothAdapter.cancelDiscovery();
+    
+    
+
