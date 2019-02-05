@@ -88,3 +88,22 @@
     }
 #### and, Start Discovery / Scanning for a new device
     mBluetoothAdapter.startDiscovery();
+
+### Stop Discovery / Scan
+    mBluetoothAdapter.cancelDiscovery();
+    
+### Pair Device / Bond with Device
+    Class class1 = Class.forName("android.bluetooth.BluetoothDevice");
+    Method createBondMethod = class1.getMethod("createBond");
+    Boolean returnValue = (Boolean) createBondMethod.invoke(btDevice);
+    return returnValue.booleanValue();
+    
+### Don't forget 
+#### To unregister the receiver while you leave the app
+    unregisterReceiver(mReceiver);
+
+#### To stop scanning while you leave the app
+##### check with 
+    mBluetoothAdapter.isDiscovering();
+##### And, cancel with
+    mBluetoothAdapter.cancelDiscovery();
